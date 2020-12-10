@@ -6,14 +6,14 @@ function generatePassword() {
     var passwordString = "";
 
     //User input prompts//
-    var useNumeric = prompt("Include numebers?")
+    var useNumeric = prompt("Include numbers?")
     var useLowerCase = prompt("Include lowercase characters?")
     var useUpperCase = prompt("Include uppercase characters?")
     var useSpecial = prompt("Include special characters?")
 
 
     //Check validity of variables entered
-    if (useLowerCase == false && useUpperCase == false && useNumeric == false && useSpecial == false) {
+    if (useLowerCase === false && useUpperCase === false && useNumeric === false && useSpecial === false) {
         alert("Try again! Please select one type of character");
         useNumeric = confirm("Do you want to include numeric characters?");
         useLowerCase = confirm("Do you want to include lowercase characters?");
@@ -41,6 +41,6 @@ function generatePassword() {
     passwordString += randomChar;
     passwordEntry.textContent = passwordString;
 }
-var generateButton = document.getElementById("generate");
+var generateButton = document.getElementById("generatePassword");
 var passwordEntry = document.getElementById("passwordEntry");
 //generateButton.onclick = generatePassword;
