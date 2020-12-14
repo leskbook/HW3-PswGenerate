@@ -12,13 +12,27 @@ function generatePassword() {
     var resultArray = [];
     var userArray = [];
 
-    //User input
+    //User input----------------------------------------------------------------------------
 
-    var numCharacter = prompt("How many character do you want, must be between 8 and 128?");
-    var numbers = confirm("Click okay for numbers in your password?");
-    var uppercases = confirm("Click okay for uppercase characters in your password");
-    var lowercases = confirm("Click okay for lowercase characters in your password");
-    var characters = confirm("Click okay to include special characters in your password");
+    //validate user input for 8-128 characters
+    var passwordLength;
+    passwordLength = prompt("How many character do you want, must be between 8 and 128?");
+
+    if (!passwordLength) {
+        alert("Please enter a number!");
+        return;
+
+    } else if (!passwordLength || passwordLength < 8 || passwordLength > 128 || passwordLength === "") {
+        alert('Start Again! Length must be between 8 and 128');
+        return;
+
+    }
+
+    var numbers = confirm("Click OK to include numbers in your password");
+    var uppercases = confirm("Click OK to include uppercase characters in your password");
+    var lowercases = confirm("Click OK to include lowercase characters in your password");
+    var characters = confirm("Click OK to include special characters in your password");
+
 
 
     if (numbers) {
@@ -39,11 +53,11 @@ function generatePassword() {
     if (characters) {
         resultArray = resultArray.concat(charArray);
     }
-    console.log(resultArray)
 
 
+    //Display results-----------------------------------------------------------------
 
-    for (var i = 0; i < numCharacter; i++) {
+    for (var i = 0; i < passwordLength; i++) {
 
         userArray.push(resultArray[Math.floor(Math.random() * resultArray.length)]);
     }
@@ -51,14 +65,6 @@ function generatePassword() {
     return userArray.join("");
 }
 
-function writePassword() {
-    var password = generatePassword();
-    var passwordText = document.querySelector("#password");
-
-    passwordText.value = password;
-
-}
-// Write password to the #password input
 function writePassword() {
     var password = generatePassword();
     var passwordText = document.querySelector("#password");
