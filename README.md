@@ -4,7 +4,9 @@ This application generates a random password based on user input and prompted in
 
 Application criteria
 
-Length of password - the user is prompted to input a number between 8 and 128. Validation requires that the number can't be omitted as well as a second validation for length
+Length of password - the user is prompted to input a number between 8 and 128. Validation requires that the number can't be omitted as well as a second validation for length.
+
+![Screenshot] (Assets/images/screen1.png) 
 
 
 
