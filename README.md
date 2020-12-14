@@ -4,14 +4,14 @@ This application generates a random password based on user input and prompted in
 
 Application criteria
 
-Length of password - the user is prompted to input a number between 8 and 128. Validation requires that the number can't be omitted as well as a second validation for length.
+Length of password - the user is prompted to input a number between 8 and 128. Validation requires that the number can't be omitted as well as a second validation for length. This is accomplished through a javascript if else if condition. 
 
-![Screenshot] (Assets/images/screen1.png) 
+The user is then presented with an OK or Cancel to stipulate the additional password criteria. 
+
+The application generates the random password after all of the selection criteria is complete. 
+
+I have changed the button color from the original markup just to add a little punch. 
+
+Using javascript arrays enables the creation of random numbers, letters and symbols. 
 
 
-
-
-
-The end result of the application provides the user a new and secure password. Without a set of prompts, the user would not be able to follow any directions towards generating a new password.
-
-This repository cemented the concepts of Javascript and how logic plays a key role within software development. By not confining a user within a set of boundaries and guidelines, the application would be open for interpretation and might not prompt the user towards a specific action or goal.
