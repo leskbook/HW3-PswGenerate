@@ -23,7 +23,9 @@ THEN the password is either displayed in an alert or written to the page
 
 Length of password - the user is prompted to input a number between 8 and 128. Validation requires that the number can't be omitted as well as a second validation for length. This is accomplished through a javascript if else if condition. 
 
-<img src="Assets/images/screen3.png" alt="Input prompt validation for number between 8 and 128">
+<img src="Assets/images/numprmt.png" alt="Initial prompt for number between 8 and 128">
+
+<img src="Assets/images/lenprmt.png" alt="Validation alert for number between 8 and 128">
 
 The user is then presented with an OK or Cancel to stipulate the additional password criteria. 
 lower case letters
@@ -39,7 +41,7 @@ I have changed the button color from the original markup just to add a little pu
 Using javascript arrays enables the creation of random numbers, letters and symbols.
 
 
-<img src="Assets/images/screen6.png" alt="Display of javascript array code">
+<img src="Assets/images/code.png" alt="Display of javascript array code">
  
 Finished Product:
 
