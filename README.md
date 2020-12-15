@@ -1,6 +1,6 @@
 **Project Objective:**
 
-This application generates a random password based on user input and prompted inclusive criteria. Javascript was used to provide the confirmation input as well as the prompted input. Javascript was also used to validate prompted input. 
+This application generates a random password based on user input and prompted inclusive criteria. Javascript was used to provide the confirmation input as well as the prompted input. Javascript was also used to validate prompted input and write the resulting random password to the page.
 
 
 
