@@ -1,6 +1,6 @@
 This application generates a random password based on user input and prompted inclusive criteria. Javascript was used to provide the confirmation input as well as the prompted input. Javascript was also used to validate prompted input. 
 
-<h1>Application criteria:</>
+Application Criteria:
 
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
@@ -31,7 +31,7 @@ The application generates the random password after all of the selection criteri
 
 I have changed the button color from the original markup just to add a little punch. 
 Using javascript arrays enables the creation of random numbers, letters and symbols.
-<img src="Assets/images/code.png" alt="Display of javascript array code">
+<img src="Assets/images/screen6.png" alt="Display of javascript array code">
  
 
 
