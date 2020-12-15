@@ -1,5 +1,7 @@
 This application generates a random password based on user input and prompted inclusive criteria. Javascript was used to provide the confirmation input as well as the prompted input. Javascript was also used to validate prompted input. 
 
+
+
 Application Criteria:
 
 GIVEN I need a new, secure password
@@ -21,17 +23,25 @@ THEN the password is either displayed in an alert or written to the page
 
 Length of password - the user is prompted to input a number between 8 and 128. Validation requires that the number can't be omitted as well as a second validation for length. This is accomplished through a javascript if else if condition. 
 
+<img src="Assets/images/screen3.png" alt="Input prompt validation for number between 8 and 128">
+
 The user is then presented with an OK or Cancel to stipulate the additional password criteria. 
 lower case letters
 uppercase letters
 numbers
 symbols
 
+<img src="Assets/images/selections.png" alt="Selection criteria for including numbers in the random password. Options are OKAY for yes and Cancel for no">
+
 The application generates the random password after all of the selection criteria is complete. The random password is then written to the screen.
 
 I have changed the button color from the original markup just to add a little punch. 
 Using javascript arrays enables the creation of random numbers, letters and symbols.
+
+
 <img src="Assets/images/screen6.png" alt="Display of javascript array code">
  
+Finished Product:
 
+<img src="Assets/images/screen5.pgn" alt="Completed generation of random password">
 
