@@ -41,11 +41,10 @@ The application generates the random password after all of the selection criteri
 
 Using javascript arrays enables the creation of random numbers, letters and symbols.
 
-
 <img src="Assets/images/code.png" alt="Display of javascript array code">
  
 **Finished Product:**
-**NOTE: I have changed the generate password to blue for a little contrast.**
+NOTE: I have changed the generate password to blue for a little contrast.
 
-<img src="Assets/images/output.pgn" alt="Completed generation of random password">
+<img src="Assets/images/output.png" alt="Completed generation of random password">
 
