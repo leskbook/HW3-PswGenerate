@@ -23,7 +23,7 @@ This application generates a random password based on user input and prompted in
 - THEN the password is either displayed in an alert or written to the page
 
 
-Length of password - the user is prompted to input a number between 8 and 128. Validation requires that the number can't be omitted as well as a second validation for length. This is accomplished through a javascript if else if condition. 
+Length of password - the user is prompted to input a number between 8 and 128. Validation requires that the number can't be omitted as well as a second validation for length. This is accomplished through a javascript if else/if condition. 
 
 <img src="Assets/images/numprmt.png" alt="Initial prompt for number between 8 and 128">
 
@@ -31,7 +31,7 @@ Length of password - the user is prompted to input a number between 8 and 128. V
 
 The user is then presented with an OK or Cancel to stipulate the additional password criteria. 
 - lower case letters
-- uppercase letters
+- upper case letters
 - numbers
 - symbols
 
@@ -39,13 +39,13 @@ The user is then presented with an OK or Cancel to stipulate the additional pass
 
 The application generates the random password after all of the selection criteria is complete. The random password is then written to the screen.
 
-I have changed the button color from the original markup just to add a little punch. 
 Using javascript arrays enables the creation of random numbers, letters and symbols.
 
 
 <img src="Assets/images/code.png" alt="Display of javascript array code">
  
 **Finished Product:**
+**NOTE: I have changed the generate password to blue for a little contrast.**
 
-<img src="Assets/images/screen5.pgn" alt="Completed generation of random password">
+<img src="Assets/images/output.pgn" alt="Completed generation of random password">
 
