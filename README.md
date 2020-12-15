@@ -44,7 +44,7 @@ Using javascript arrays enables the creation of random numbers, letters and symb
 <img src="Assets/images/code.png" alt="Display of javascript array code">
  
 **Finished Product:**
-NOTE: I have changed the generate password to blue for a little contrast.
+- NOTE: I have changed the generate password to blue for a little contrast.
 
 <img src="Assets/images/output.png" alt="Completed generation of random password">
 
